@@ -64,12 +64,11 @@ isDName("Marcus") => false
 
 ## 6. containsLowercase
 
-Write a function called `containsLowercase` that takes a string as an argument and returns whether the string contains at least one lowercase letter.
+Write a function called `containsLowercase` that takes a string as an argument and returns whether the string contains at least one lowercase letter.  You can assume you will only be given non-symbol/non-numeric strings as input.
 
 ```js
 containsLowercase("HELLO") => false
 containsLowercase("Hello") => true
-containsLowercase("123?!") => false
 containsLowercase("I love JavaScript!") => true
 ```
 
