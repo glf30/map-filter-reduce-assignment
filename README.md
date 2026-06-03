@@ -1,8 +1,9 @@
 # map-filter-reduce-assignment
 
-## 1. Geese Filter Problem
 
-Write a function that takes a list of strings as an argument and returns a filtered list containing the same elements but with the "geese" removed.
+## 1. filterGeese
+
+Write a function called filterGeese that takes a list of strings as an argument and returns a filtered list containing the same elements but with the "geese" removed.
 
 The geese are:
 
@@ -13,7 +14,7 @@ The geese are:
 For example:
 
 ```js
-["Mallard", "Hook Bill", "African", "Crested", "Pilgrim", "Toulouse", "Blue Swedish"]
+filterGeese(["Mallard", "Hook Bill", "African", "Crested", "Pilgrim", "Toulouse", "Blue Swedish"])
 => ["Mallard", "Hook Bill", "Crested", "Blue Swedish"]
 ```
 
@@ -24,7 +25,7 @@ For example:
 Given a list of names, that can be in any case, return a list of names with proper capitalization.
 
 ```js
-["joE", "jIM", "CinDY"] => ["Joe", "Jim", "Cindy"]
+capitalizeAll(["joE", "jIM", "CinDY"]) => ["Joe", "Jim", "Cindy"]
 ```
 
 ---
@@ -34,7 +35,7 @@ Given a list of names, that can be in any case, return a list of names with prop
 Given a list of name objects, return their names with only the initials in the following format:
 
 ```js
-[ { first: "Bob",  last: "Michaels"}, { first: "Sam", last: "Fritz" }, { first: "Dan", last: "Kustin"} ]
+getInitials([ { first: "Bob",  last: "Michaels"}, { first: "Sam", last: "Fritz" }, { first: "Dan", last: "Kustin"} ])
 => ["B. M.", "S. F.", "D.K."]
 ```
 
@@ -145,21 +146,3 @@ discountedHighValueOrders([
 ```
 
 ---
-
-## 12. totalRevenue (Bonus)
-
-Write a function that takes an array of order objects and returns the total revenue of all orders.
-
-Each object has this shape:
-
-```js
-{ id: number, customer: string, total: number }
-```
-
-```js
-totalRevenue([
-  { id: 1, customer: "Maya", total: 120 },
-  { id: 2, customer: "John", total: 40 },
-  { id: 3, customer: "Sara", total: 200 }
-]) => 360
-```
