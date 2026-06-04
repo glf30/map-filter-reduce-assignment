@@ -53,11 +53,10 @@ shortNamesOnly(["Maya", "Christopher", "Jordan", "Zoe"]) => ["Maya", "Jordan", "
 
 ## 5. isDName
 
-Write a function called `isDName` that takes a name as an argument and returns whether or not the name starts with the letter "D".
+Write a function called isDName that takes an array of names as an argument and returns all of the names that start with the letter "D".
 
 ```js
-isDName("Diana") => true
-isDName("Marcus") => false
+isDName(["Diana", "Marcus", "William", "Danny", "Dominic"]) => ["Diana", "Danny", "Dominic"]
 ```
 
 ---
