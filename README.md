@@ -139,7 +139,7 @@ discountedHighValueOrders([
   { id: 2, customer: "John", total: 40 },
   { id: 3, customer: "Sara", total: 200 },
   { id: 4, customer: "Leo", total: 90 }
-]) => 332
+]) => 418
 ```
 
 ---
