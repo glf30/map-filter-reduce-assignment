@@ -63,12 +63,11 @@ isDName(["Diana", "Marcus", "William", "Danny", "Dominic"]) => ["Diana", "Danny"
 
 ## 6. containsLowercase
 
-Write a function called `containsLowercase` that takes a string as an argument and returns whether the string contains at least one lowercase letter.  You can assume you will only be given non-symbol/non-numeric strings as input.
+Write a function called `containsLowercase` that takes an array of strings as an argument and returns all of the strings that contain at least one lower case character You can assume you will only be given non-symbol/non-numeric strings as input.
 
 ```js
-containsLowercase("HELLO") => false
-containsLowercase("Hello") => true
-containsLowercase("I love JavaScript!") => true
+containsLowercase(["HELLO", "Hello", "I Love JavaScript") => ["Hello", "I Love JavaScript"]
+
 ```
 
 ---
